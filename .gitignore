@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secretos y salida local
+.env
+salida/
+
+# Archivo de audios originales (pesan mucho para git)
+audios/
+
+# Lo personal de cada usuario (ver AGENTS.md)
+perfil.md
+CLAUDE.local.md
+vocabulario/*
+!vocabulario/README.md
+!vocabulario/ejemplo.txt
+.claude-project-id
+.claude/settings.local.json
+
+# macOS
+.DS_Store

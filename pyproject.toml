@@ -1,0 +1,22 @@
+[project]
+name = "audio-a-notas"
+version = "0.1.0"
+description = "Grabaciones del iPhone → transcripción por hablante + nota en Markdown"
+authors = [
+    { name = "agusbosss", email = "129445561+agusbosss@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mutagen>=1.48.1",
+]
+
+[project.scripts]
+notas = "notas_de_voz.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "notas_de_voz"

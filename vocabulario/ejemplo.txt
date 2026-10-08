@@ -1,0 +1,6 @@
+# Ejemplo: copiá este archivo como "<Nombre de la materia>.txt" y reemplazá los términos.
+# Las líneas que empiezan con # se ignoran.
+heterocedasticidad
+mínimos cuadrados ordinarios
+estimador insesgado
+test de Durbin-Watson
